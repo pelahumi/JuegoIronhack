@@ -1,6 +1,9 @@
 body {
     margin: 0;
     font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #instructions-container {
@@ -22,4 +25,19 @@ ul, ol {
 
 li {
     margin-bottom: 5px;
+}
+
+#play-button {
+    background-color: #2ecc71;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#play-button:hover {
+    background-color: #27ae60;
 }

@@ -1,6 +1,9 @@
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f5f5f5;
+    background-image: url('https://img.freepik.com/vector-premium/ilustracion-vector-explosion-agujero-pared-ladrillo-realista_1284-74060.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     margin: 0;
     padding: 0;
     display: flex;
@@ -42,10 +45,19 @@ a:hover {
 }
 
 .container {
-    background-color: #fff;
     padding: 50px;
-    border-radius: 7px;
     text-align: center;
     max-width: 400px; /* Añadido para limitar el ancho del contenedor */
     width: 100%; /* Añadido para asegurar que ocupe todo el ancho disponible */
+}
+
+#niveles {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+}
+
+#instrucciones {
+    display: block;
+    margin-top: 20px;
 }
