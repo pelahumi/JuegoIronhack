@@ -25,6 +25,7 @@ let brickOffsetLeft = 32;
 
 let score = 0;
 
+var breakSound = document.getElementById('sonidoChoque');
 
 let bricks = [];
 for (i = 0; i < brickColumnCount; i++) {
@@ -103,6 +104,7 @@ function collisionDetection(){
                 dy = -dy;
                 b.status = 0;
                 score++;
+                breakSound.play();
                 if(score === brickRowCount * brickColumnCount){
                     alert("YOU WIN, CONGRATULATIONS!");
                     document.location.reload();
