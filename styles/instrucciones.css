@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+#instructions-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #3498db;
+}
+
+ul, ol {
+    margin-bottom: 15px;
+}
+
+li {
+    margin-bottom: 5px;
+}
