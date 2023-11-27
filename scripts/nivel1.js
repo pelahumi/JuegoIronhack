@@ -7,7 +7,7 @@ let dx = 2;
 let dy = -2;
 
 let paddleHeight = 12;
-let paddleWidth = 50;
+let paddleWidth = 70;
 
 let paddleX = (canvas.width - paddleWidth) / 2;
 
@@ -153,4 +153,4 @@ function draw(){
 }
 
 
-setInterval(draw, 6);
+setInterval(draw, 10);
