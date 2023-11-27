@@ -1,4 +1,14 @@
 #canvas {
     background-color: aquamarine;
-    margin: 125px 0px 125px 295px;
+    margin: 130px 0px 125px 305px;
+    padding: 10px;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+body {
+    background-image: url('https://fpschampion.com/wp-content/uploads/2023/07/Gameboy-Advance-768x432.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
