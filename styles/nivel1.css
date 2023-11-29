@@ -6,7 +6,7 @@
     border-radius: 10px;
 }
 
-body {
+.container {
     background-image: url('https://fpschampion.com/wp-content/uploads/2023/07/Gameboy-Advance-768x432.png');
     background-size: cover;
     background-position: center;
